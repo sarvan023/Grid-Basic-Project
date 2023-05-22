@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Tilt+Warp&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+body{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(./images/monica-garniga-XClNDg9Z9Ag-unsplash.jpg);
+    background-size: cover;
+    
+}
+.nav{
+    display: grid;
+    grid-template-columns: 35% 45% 25%;
+    grid-auto-flow: column;
+    margin-top: 0.6rem;
+   font-family: 'Tilt Warp', cursive;
+}
+.nav1 span{
+   margin-right: 20px;
+}
+.nav >div{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+.log1{
+    color: #fff;
+}
+.name{
+    margin-right: 16rem;
+}
+.pic1{
+    margin-right: 9rem;
+    border-radius: 50%;
+}
+.titx{
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    margin: 4rem 0 0 0rem;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.txts1,.txts2{
+    display: inline-block;
+    text-align: center;
+}
+.txts1{
+    margin-right: 2rem;
+}
+.con{
+    width: 70%;
+    margin-left: 12rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.con1,.con2,.con3,.con4{
+    display: flex;
+}
+#ic{
+    font-size: 2.2rem;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px 4px;
+}
+.bord{
+    border-left: 5px solid white;
+}
+.text1,.text2,.text3,.text4{
+    margin-left: 12px;
+}
+.ft{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.ft1{
+    background-color: #4E6E81;
+    padding: 75px 20px ;
+    border-radius: 20px;
+}
+.ft2{
+    background-color: #FFB84C;
+    padding: 75px 20px ;
+    border-radius: 20px;
+}
+.ft3
+{
+    background-color: #E96479;
+    padding: 75px 20px ;
+    border-radius: 20px;
+}
+.ft4
+{
+    background-color: #609EA2;
+    padding: 75px 20px ;
+    border-radius: 20px;
+}
